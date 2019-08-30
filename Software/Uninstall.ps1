@@ -4,8 +4,6 @@
 .DESCRIPTION
    Find Uninstall Strings in the Registry and Uninstall Program.
    Default Log Location C:\temp
-.PARAMETER 
-Invoke-Uninstall
     
 .NOTES
   Version:        1.0
