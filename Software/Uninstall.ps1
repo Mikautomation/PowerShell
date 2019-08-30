@@ -68,10 +68,10 @@ Function Invoke-Uninstall {
         $guid = $key.keyname
   
         if ($guid.StartsWith("{")) {
-            $uninstallString = "MsiExec.exe /X $guid /$method /norestart"
+            $uninstallString = "MsiExec.exe /X '$guid' /$method /norestart"
                         
             #Uncomment to Run
-            cmd /c "$uninstallString"
+           Invoke-Expression "$uninstallString"
         }
         else {
             if ($key.UninstallString -ne $null) {
