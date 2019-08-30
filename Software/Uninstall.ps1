@@ -11,6 +11,7 @@
   Creation Date:  30/08/2019
   GitHub:         https://github.com/Mike-T-Anderson/PowerShell
   Purpose/Change: Initial script development
+  
 .EXAMPLE
    Invoke-Uninstall "Revit 2018" -Log C:\temp\
 .EXAMPLE
