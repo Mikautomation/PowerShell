@@ -18,7 +18,7 @@ Invoke-Uninstall
    Invoke-Uninstall "Revit 2018" -Log C:\temp\
 .EXAMPLE
    Invoke-Uninstall "Revit 2018" -passive 
-   (this will make the uninstaller Passive with Prompts Default is silent)
+   (This will make the uninstaller Passive with progress bar)
 .EXAMPLE
    Invoke-Uninstall "Revit 2018" -logpath C:\path\Path
 #>
